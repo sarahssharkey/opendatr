@@ -16,3 +16,16 @@ getJSONStatData <- function(dataURL){
   data <- fromJSONstat(dataURL)
   return(data[[1]])
 }
+
+#' A CSV Data Retrieval Function
+#'
+#' This function allows you to retrieve CSV data at a specified URL in data frame format.
+#' @param dataURL URL of CSV data
+#' @keywords CSV, csv
+#' @export
+#' @examples
+#' getCSVData()
+getCSVData <- function(dataURL){
+  data <- read.csv(dataURL)
+  return(data)
+}

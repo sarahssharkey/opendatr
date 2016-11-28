@@ -4,10 +4,8 @@
 \name{opendatr}
 \alias{opendatr}
 \alias{opendatr-package}
-\title{Read and write JSON-stat data sets}
+\title{Functions for retrieving datasets}
 \description{
-\href{http://json-stat.org}{JSON-stat} is a JSON format for data
-dissemination. The \pkg{rjstat} package converts data frames to and from this
-format. The extensive metadata features of JSON-stat are not supported.
+Functions for retrieving datasets
 }
 

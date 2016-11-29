@@ -4,8 +4,6 @@
 \name{opendatr}
 \alias{opendatr}
 \alias{opendatr-package}
-\alias{opendatr}
-\alias{opendatr-package}
 \title{Functions for manipulating datasets}
 \description{
 Functions for manipulating datasets

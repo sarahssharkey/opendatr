@@ -2,5 +2,7 @@
 
 export(getCSVData)
 export(getCommonDataVariables)
+export(getDataSet)
 export(getJSONStatData)
+import(httr)
 import(rjstat)

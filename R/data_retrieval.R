@@ -28,6 +28,8 @@ getJSONStatData <- function(dataURL){
 #' getCSVData()
 getCSVData <- function(dataURL){
   data <- read.csv(dataURL)
+  data[ , -which(names(data) %in% c(""))]
+  data <- Filter(function(x)!all(is.na(x)), data)
   return(data)
 }
 

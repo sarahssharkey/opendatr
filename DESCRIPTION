@@ -13,4 +13,5 @@ Imports:
     rjstat,
     httr
 Suggests:
-    ggvis
+    ggvis,
+    testthat

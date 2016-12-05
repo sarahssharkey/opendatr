@@ -12,10 +12,16 @@ NULL
 #' getCommonDataVariables
 getCommonDataVariables <- function(...) {
   intersectNames <- function(x,y) {
-    if(is.null(colnames(x))){
-      return(intersect(x,colnames(y)))
+    colnameFunction <- colnames
+
+    if(is.null(dim(x))){
+      colnameFunction <- names
+    }
+
+    if(is.null(colnameFunction(x))){
+      return(intersect(x,colnameFunction(y)))
     } else {
-      return(intersect(colnames(x),colnames(y)))
+      return(intersect(colnameFunction(x),colnameFunction(y)))
     }
   }
   return(Reduce(intersectNames, list(...)))

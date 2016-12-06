@@ -1,0 +1,3317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2LogicalModel modelBaseVersion="1.0"
+                xmlns="http://datex2.eu/schema/1_0/1_0"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://datex2.eu/schema/1_0/1_0 http://datex2.eu/schema/1_0/1_0/DATEXIISchema_1_0_1_0.xsd">
+ <exchange>
+  <supplierIdentification>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </supplierIdentification>
+ </exchange>
+ <payloadPublication xsi:type="SituationPublication" lang="eng">
+  <publicationTime>2016-08-26T15:38:47+01:00</publicationTime>
+  <publicationCreator>
+   <country>ie</country>
+   <nationalIdentifier>NRA</nationalIdentifier>
+  </publicationCreator>
+ 
+  <situation id="VMS100_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS100">
+    <situationRecordCreationTime>2016-08-26T09:57:56+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T09:57:56+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T09:57:56+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T09:57:56+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS100</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS100</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS101_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS101">
+    <situationRecordCreationTime>2016-08-26T09:28:40+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T09:28:40+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T09:28:40+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T09:28:40+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS101</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS101</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS102_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS102">
+    <situationRecordCreationTime>2016-08-26T13:17:10+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:17:10+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:17:10+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:17:10+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS102</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS102</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS103_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS103">
+    <situationRecordCreationTime>2016-08-26T10:56:40+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T10:56:40+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T10:56:40+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T10:56:40+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS103</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS103</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS104_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS104">
+    <situationRecordCreationTime>2016-08-26T00:34:42+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T00:34:42+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T00:34:42+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T00:34:42+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS104</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS104</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS105_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS105">
+    <situationRecordCreationTime>2016-08-26T13:02:23+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:02:23+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:02:23+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:02:23+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS105</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS105</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS106_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS106">
+    <situationRecordCreationTime>2016-08-26T12:57:42+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T12:57:42+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T12:57:42+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T12:57:42+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS106</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS106</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS107_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS107">
+    <situationRecordCreationTime>2016-08-26T13:01:42+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:01:42+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:01:42+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:01:42+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS107</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS107</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS108_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS108">
+    <situationRecordCreationTime>2016-08-26T14:50:49+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T14:50:49+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T14:50:49+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T14:50:49+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS108</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS108</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS109_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS109">
+    <situationRecordCreationTime>2016-08-26T13:55:55+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:55:55+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:55:55+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:55:55+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS109</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS109</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS111_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS111">
+    <situationRecordCreationTime>2016-08-26T11:55:18+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T11:55:18+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T11:55:18+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T11:55:18+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS111</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS111</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS112_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS112">
+    <situationRecordCreationTime>2016-08-26T15:37:15+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:15+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:15+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:15+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS112</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS112</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M1 J9 DROGHEDA   24</vmsLegend>
+    <vmsLegend>M50 J7 (N4)   11</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS113_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS113">
+    <situationRecordCreationTime>2016-08-26T15:22:28+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:22:28+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:22:28+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:22:28+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS113</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS113</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J1 (M50)   9</vmsLegend>
+    <vmsLegend>M50 J9 (N7)   19</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS114_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS114">
+    <situationRecordCreationTime>2016-08-26T15:27:24+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:27:24+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:27:24+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:27:24+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS114</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS114</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J4 CLONEE   15</vmsLegend>
+    <vmsLegend>J1 (M50)   22</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS115_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS115">
+    <situationRecordCreationTime>2016-08-26T15:12:30+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:12:30+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:12:30+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:12:30+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS115</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS115</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J5 LEIXLIP   10</vmsLegend>
+    <vmsLegend>J1 (M50)   15</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS116_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS116">
+    <situationRecordCreationTime>2016-08-26T15:37:29+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:29+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:29+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:29+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS116</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS116</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J7 MAYNOOTH   23</vmsLegend>
+    <vmsLegend>J1 (M50)   32</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS117_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS117">
+    <situationRecordCreationTime>2016-08-26T15:37:26+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:26+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:26+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:26+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS117</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsFault>unknown</vmsFault>
+    <vmsIdentifier>VMS117</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M4 J7 MAYNOOTH   24</vmsLegend>
+    <vmsLegend>N4 J1 (M50)   33</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS118_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS118">
+    <situationRecordCreationTime>2016-08-26T15:07:27+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:07:27+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:07:27+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:07:27+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS118</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS118</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J9 NAAS   5</vmsLegend>
+    <vmsLegend>J1 (M50)   19</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS119_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS119">
+    <situationRecordCreationTime>2016-08-26T04:36:54+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T04:36:54+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T04:36:54+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T04:36:54+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS119</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS119</vmsIdentifier>
+    <vmsLegend>JUNCTION 11 - 10</vmsLegend>
+    <vmsLegend>NEW ROAD</vmsLegend>
+    <vmsLegend>LAYOUT AHEAD</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS120_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS120">
+    <situationRecordCreationTime>2016-08-26T00:35:51+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T00:35:51+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T00:35:51+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T00:35:51+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS120</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS120</vmsIdentifier>
+    <vmsLegend>JUNCTION 11 - 10</vmsLegend>
+    <vmsLegend>NEW ROAD</vmsLegend>
+    <vmsLegend>LAYOUT AHEAD</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS121_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS121">
+    <situationRecordCreationTime>2016-08-26T15:34:11+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:34:11+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:34:11+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:34:11+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS121</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS121</vmsIdentifier>
+    <vmsLegend>JUNCTION 11 - 10</vmsLegend>
+    <vmsLegend>NEW ROAD</vmsLegend>
+    <vmsLegend>LAYOUT AHEAD</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS122_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS122">
+    <situationRecordCreationTime>2016-08-25T09:18:23+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:23+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:23+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:23+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS122</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS122</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS123_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS123">
+    <situationRecordCreationTime>2016-08-25T09:18:18+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:18+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:18+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:18+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS123</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS123</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS124_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS124">
+    <situationRecordCreationTime>2016-08-26T15:14:20+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:14:20+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:14:20+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:14:20+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS124</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS124</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS125_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS125">
+    <situationRecordCreationTime>2016-08-26T10:47:52+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T10:47:52+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T10:47:52+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T10:47:52+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS125</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS125</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS126_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS126">
+    <situationRecordCreationTime>2016-08-26T09:38:40+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T09:38:40+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T09:38:40+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T09:38:40+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS126</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS126</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS127_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS127">
+    <situationRecordCreationTime>2016-08-25T09:18:22+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:22+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:22+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:22+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS127</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS127</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS128_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS128">
+    <situationRecordCreationTime>2016-08-25T09:18:22+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:22+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:22+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:22+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS128</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS128</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS129_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS129">
+    <situationRecordCreationTime>2016-08-26T15:23:54+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:23:54+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:23:54+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:23:54+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS129</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS129</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS130_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS130">
+    <situationRecordCreationTime>2016-08-25T09:18:22+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:22+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:22+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:22+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS130</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS130</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS131_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS131">
+    <situationRecordCreationTime>2016-08-26T13:16:38+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:16:38+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:16:38+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:16:38+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS131</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS131</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS132_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS132">
+    <situationRecordCreationTime>2016-08-26T10:33:59+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T10:33:59+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T10:33:59+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T10:33:59+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS132</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS132</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS133_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS133">
+    <situationRecordCreationTime>2016-08-26T00:01:17+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T00:01:17+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T00:01:17+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T00:01:17+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS133</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>VMS Messages_Feb 2015_bitmaps5</pictogramListEntry>
+    <vmsIdentifier>VMS133</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS134_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS134">
+    <situationRecordCreationTime>2016-08-26T11:55:10+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T11:55:10+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T11:55:10+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T11:55:10+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS134</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS134</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS135_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS135">
+    <situationRecordCreationTime>2016-08-26T11:54:03+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T11:54:03+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T11:54:03+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T11:54:03+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS135</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_SES</pictogramListEntry>
+    <vmsFault>unknown</vmsFault>
+    <vmsIdentifier>VMS135</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS136_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS136">
+    <situationRecordCreationTime>2016-08-26T13:52:10+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:52:10+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:52:10+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:52:10+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS136</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_SES</pictogramListEntry>
+    <vmsFault>unknown</vmsFault>
+    <vmsIdentifier>VMS136</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS137_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS137">
+    <situationRecordCreationTime>2016-08-26T15:15:20+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:15:20+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:15:20+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:15:20+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS137</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_SES</pictogramListEntry>
+    <vmsFault>unknown</vmsFault>
+    <vmsIdentifier>VMS137</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS138_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS138">
+    <situationRecordCreationTime>2016-08-26T11:39:01+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T11:39:01+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T11:39:01+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T11:39:01+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS138</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_dd2014</pictogramListEntry>
+    <vmsIdentifier>VMS138</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS139_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS139">
+    <situationRecordCreationTime>2016-08-26T09:28:57+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T09:28:57+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T09:28:57+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T09:28:57+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS139</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_dd2014</pictogramListEntry>
+    <vmsIdentifier>VMS139</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS140_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS140">
+    <situationRecordCreationTime>2016-08-26T15:28:55+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:28:55+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:28:55+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:28:55+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS140</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_dd2014</pictogramListEntry>
+    <vmsIdentifier>VMS140</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS141_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS141">
+    <situationRecordCreationTime>2016-08-26T12:23:02+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T12:23:02+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T12:23:02+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T12:23:02+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS141</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_dd2014</pictogramListEntry>
+    <vmsIdentifier>VMS141</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS142_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS142">
+    <situationRecordCreationTime>2016-08-25T21:28:58+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T21:28:58+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T21:28:58+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T21:28:58+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS142</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_dd2014</pictogramListEntry>
+    <vmsFault>unknown</vmsFault>
+    <vmsIdentifier>VMS142</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS143_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS143">
+    <situationRecordCreationTime>2016-08-26T10:47:51+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T10:47:51+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T10:47:51+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T10:47:51+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS143</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_dd2014</pictogramListEntry>
+    <vmsIdentifier>VMS143</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS144_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS144">
+    <situationRecordCreationTime>2016-08-26T15:14:01+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:14:01+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:14:01+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:14:01+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS144</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>blank_dd2014</pictogramListEntry>
+    <vmsIdentifier>VMS144</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS20_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS20">
+    <situationRecordCreationTime>2016-08-26T13:17:07+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:17:07+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:17:07+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:17:07+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS20</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS20</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS24_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS24">
+    <situationRecordCreationTime>2016-08-26T11:55:13+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T11:55:13+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T11:55:13+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T11:55:13+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS24</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS24</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS25_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS25">
+    <situationRecordCreationTime>2016-08-25T18:17:35+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T18:17:35+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T18:17:35+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T18:17:35+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS25</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_INSTANT</pictogramListEntry>
+    <vmsIdentifier>VMS25</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS27_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS27">
+    <situationRecordCreationTime>2016-08-26T15:34:36+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:34:36+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:34:36+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:34:36+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS27</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS27</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>BELFAST  56</vmsLegend>
+    <vmsLegend>A1 NEWRY  13</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS28_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS28">
+    <situationRecordCreationTime>2016-08-26T15:19:31+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:19:31+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:19:31+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:19:31+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS28</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS28</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J2 AIRPORT  5</vmsLegend>
+    <vmsLegend>M50 J7 (N4)  16</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS3_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS3">
+    <situationRecordCreationTime>2016-08-25T09:18:16+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:16+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:16+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:16+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS3</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M1</pictogramListEntry>
+    <vmsIdentifier>VMS3</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS33_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS33">
+    <situationRecordCreationTime>2016-08-26T09:28:41+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T09:28:41+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T09:28:41+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T09:28:41+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS33</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50</pictogramListEntry>
+    <vmsIdentifier>VMS33</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS4_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS4">
+    <situationRecordCreationTime>2016-08-25T09:18:16+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:16+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:16+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:16+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS4</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M1</pictogramListEntry>
+    <vmsIdentifier>VMS4</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS5_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS5">
+    <situationRecordCreationTime>2016-08-25T09:18:16+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:16+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:16+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:16+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS5</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M1</pictogramListEntry>
+    <vmsIdentifier>VMS5</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS51_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS51">
+    <situationRecordCreationTime>2016-08-26T14:52:41+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T14:52:41+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T14:52:41+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T14:52:41+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS51</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsFault>unknown</vmsFault>
+    <vmsIdentifier>VMS51</vmsIdentifier>
+    <vmsLegend>TIME</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS52_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS52">
+    <situationRecordCreationTime>2016-08-25T20:19:44+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T20:19:44+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T20:19:44+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T20:19:44+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS52</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS52</vmsIdentifier>
+    <vmsLegend>TIME</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS53_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS53">
+    <situationRecordCreationTime>2016-08-25T09:19:30+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:19:30+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:19:30+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:19:30+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS53</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS53</vmsIdentifier>
+    <vmsLegend>TIME</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS6_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS6">
+    <situationRecordCreationTime>2016-08-26T15:37:08+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:08+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:08+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:08+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS6</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS6</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M50 J6 (N3)  7</vmsLegend>
+    <vmsLegend>M50 J9 (N7)  15</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS62_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS62">
+    <situationRecordCreationTime>2016-08-26T11:55:09+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T11:55:09+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T11:55:09+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T11:55:09+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS62</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS62</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   11</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS63_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS63">
+    <situationRecordCreationTime>2016-08-26T09:35:17+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T09:35:17+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T09:35:17+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T09:35:17+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS63</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>VMS Messages_Feb 2015_bitmaps5</pictogramListEntry>
+    <vmsIdentifier>VMS63</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS64_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS64">
+    <situationRecordCreationTime>2016-08-26T15:37:14+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:14+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:14+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:14+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS64</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS64</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J6 (N3)   7</vmsLegend>
+    <vmsLegend>M7 J11 (M9)   27</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS65_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS65">
+    <situationRecordCreationTime>2016-08-26T15:37:14+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:14+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:14+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:14+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS65</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS65</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J13 DUNDRUM   6</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   15</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS66_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS66">
+    <situationRecordCreationTime>2016-08-26T15:37:14+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:14+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:14+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:14+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS66</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS66</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J7 (N4)   5</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   15</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS67_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS67">
+    <situationRecordCreationTime>2016-08-26T12:49:17+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T12:49:17+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T12:49:17+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T12:49:17+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS67</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>eFlowGraphic</pictogramListEntry>
+    <vmsIdentifier>VMS67</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS68_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS68">
+    <situationRecordCreationTime>2016-08-26T13:16:38+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:16:38+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:16:38+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:16:38+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS68</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>eFlowGraphic</pictogramListEntry>
+    <vmsIdentifier>VMS68</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS72_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS72">
+    <situationRecordCreationTime>2016-08-26T02:50:09+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T02:50:09+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T02:50:09+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T02:50:09+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS72</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS72</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS73_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS73">
+    <situationRecordCreationTime>2016-08-26T14:32:18+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T14:32:18+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T14:32:18+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T14:32:18+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS73</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS73</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J7 (N4)   7</vmsLegend>
+    <vmsLegend>J6 (N3)   9</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS74_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS74">
+    <situationRecordCreationTime>2016-08-26T15:37:19+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:19+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:19+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:19+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS74</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS74</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J14 (N31)   6</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   14</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS75_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS75">
+    <situationRecordCreationTime>2016-08-26T15:32:15+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:32:15+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:32:15+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:32:15+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS75</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS75</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J9 (N7)   5</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   19</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS76_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS76">
+    <situationRecordCreationTime>2016-08-26T15:37:21+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:21+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:21+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:21+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS76</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS76</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   10</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS77_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS77">
+    <situationRecordCreationTime>2016-08-26T15:37:19+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:19+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:19+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:19+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS77</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS77</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   9</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS78_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS78">
+    <situationRecordCreationTime>2016-08-25T09:18:46+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:46+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:46+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:46+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS78</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS78</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS79_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS79">
+    <situationRecordCreationTime>2016-08-26T15:37:20+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:20+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:20+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:20+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS79</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS79</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J9 (N7)   14</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   31</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS80_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS80">
+    <situationRecordCreationTime>2016-08-26T15:37:19+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:19+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:19+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:19+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS80</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS80</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   4</vmsLegend>
+    <vmsLegend>M1 J9 DROGHEDA   26</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS81_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS81">
+    <situationRecordCreationTime>2016-08-26T15:32:39+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:32:39+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:32:39+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:32:39+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS81</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS81</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J7 (N4)   7</vmsLegend>
+    <vmsLegend>J12 FIRHOUSE   16</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS82_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS82">
+    <situationRecordCreationTime>2016-08-26T15:37:14+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:14+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:14+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:14+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS82</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS82</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   6</vmsLegend>
+    <vmsLegend>M1 J9 DROGHEDA   28</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS83_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS83">
+    <situationRecordCreationTime>2016-08-26T15:37:34+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:34+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:34+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:34+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS83</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS83</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J9 (N7)   8</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   25</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS84_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS84">
+    <situationRecordCreationTime>2016-08-26T15:27:16+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:27:16+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:27:16+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:27:16+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS84</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS84</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J7 (N4)   14</vmsLegend>
+    <vmsLegend>J6 (N3)   16</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS85_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS85">
+    <situationRecordCreationTime>2016-08-26T15:37:20+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:20+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:20+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:20+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS85</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS85</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   7</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS86_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS86">
+    <situationRecordCreationTime>2016-08-26T15:27:17+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:27:17+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:27:17+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:27:17+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS86</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS86</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J9 (N7)   12</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   26</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS87_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS87">
+    <situationRecordCreationTime>2016-08-25T21:08:01+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T21:08:01+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T21:08:01+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T21:08:01+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS87</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS87</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS88_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS88">
+    <situationRecordCreationTime>2016-08-26T15:27:16+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:27:16+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:27:16+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:27:16+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS88</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS88</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J7 (N4)   17</vmsLegend>
+    <vmsLegend>J6 (N3)   19</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS89_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS89">
+    <situationRecordCreationTime>2016-08-26T15:32:33+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:32:33+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:32:33+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:32:33+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS89</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS89</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J11 (M9)   24</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS90_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS90">
+    <situationRecordCreationTime>2016-08-26T15:32:19+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:32:19+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:32:19+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:32:19+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS90</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS90</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J9 (N7)   15</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   29</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS91_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS91">
+    <situationRecordCreationTime>2016-08-25T09:18:25+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:25+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:25+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:25+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS91</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS91</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS92_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS92">
+    <situationRecordCreationTime>2016-08-26T15:37:25+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:25+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:25+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:25+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS92</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS92</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M50 J3 (M1)   5</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   28</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS93_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS93">
+    <situationRecordCreationTime>2016-08-26T15:37:35+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:35+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:35+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:35+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS93</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS93</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   8</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   26</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS94_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS94">
+    <situationRecordCreationTime>2016-08-26T13:17:12+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T13:17:12+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T13:17:12+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T13:17:12+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS94</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS94</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS95_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS95">
+    <situationRecordCreationTime>2016-08-25T09:18:24+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T09:18:24+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T09:18:24+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T09:18:24+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS95</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS95</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS96_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS96">
+    <situationRecordCreationTime>2016-08-26T15:37:19+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:19+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:19+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:19+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS96</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS96</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M1 J2 AIRPORT   10</vmsLegend>
+    <vmsLegend>M50 J9 (N7)   6</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS97_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS97">
+    <situationRecordCreationTime>2016-08-26T15:37:20+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T15:37:20+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T15:37:20+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T15:37:20+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS97</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS97</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>M50 J9 (N7)   8</vmsLegend>
+    <vmsLegend>M11 J5 BRAY   25</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS98_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS98">
+    <situationRecordCreationTime>2016-08-26T14:27:35+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-26T14:27:35+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-26T14:27:35+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-26T14:27:35+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS98</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <vmsIdentifier>VMS98</vmsIdentifier>
+    <vmsLegend>TRAVEL TIME  MINS</vmsLegend>
+    <vmsLegend>J1 (M50)   5</vmsLegend>
+    <vmsLegend>M50 J3 (M1)   17</vmsLegend>
+   </situationRecord>
+  </situation>
+ 
+  <situation id="VMS99_S">
+   <headerInformation>
+    <confidentiality>noRestriction</confidentiality>
+    <informationStatus>real</informationStatus>
+   </headerInformation>
+   <situationRecord xsi:type="VariableMessageSignSetting" id="VMS99">
+    <situationRecordCreationTime>2016-08-25T18:50:59+01:00</situationRecordCreationTime>
+    <situationRecordVersion>1</situationRecordVersion>
+    <situationRecordVersionTime>2016-08-25T18:50:59+01:00</situationRecordVersionTime>
+    <situationRecordFirstSupplierVersionTime>2016-08-25T18:50:59+01:00</situationRecordFirstSupplierVersionTime>
+    <probabilityOfOccurrence>certain</probabilityOfOccurrence>
+    <sourceInformation>
+     <sourceIdentification>NRA</sourceIdentification>
+     <sourceName>
+      <value lang="en">NRA</value>
+     </sourceName>
+     <sourceType>roadAuthorities</sourceType>
+    </sourceInformation>
+    <validity>
+     <validityStatus>active</validityStatus>
+     <validityTimeSpecification>
+      <overallStartTime>2016-08-25T18:50:59+01:00</overallStartTime>
+     </validityTimeSpecification>
+    </validity>
+    <groupOfLocations xsi:type="GroupOfLocationsByReference">
+     <locationContainedInGroup xsi:type="LocationByReference">
+      <predefinedLocationReference>VMS99</predefinedLocationReference>
+     </locationContainedInGroup>
+     <predefinedLocationSetReference>VMSLocations</predefinedLocationSetReference>
+    </groupOfLocations>
+    <pictogramListEntry>BLANK_M50NEW</pictogramListEntry>
+    <vmsIdentifier>VMS99</vmsIdentifier>
+   </situationRecord>
+  </situation>
+ 
+ </payloadPublication>
+</d2LogicalModel>

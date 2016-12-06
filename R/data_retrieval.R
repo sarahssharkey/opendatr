@@ -27,10 +27,15 @@ getJSONStatData <- function(dataURL){
 #' @examples
 #' getCSVData()
 getCSVData <- function(dataURL){
-  data <- read.csv(dataURL)
-  data[ , -which(names(data) %in% c(""))]
-  data <- Filter(function(x)!all(is.na(x)), data)
-  return(data)
+    tryCatch({
+        data <- read.csv(dataURL)
+    },
+    warning=function(cond){
+        stop("error: dataURL passed must be a csv.")
+    })
+    data[ , -which(names(data) %in% c(""))]
+    data <- Filter(function(x)!all(is.na(x)), data)
+    return(data)
 }
 
 #' A JSON & CSV Data Retrieval Function
@@ -66,16 +71,18 @@ getDataSet <- function(dataURL) {
                 d <- getJSONStatData(dataURL)
             },
             error=function(cond){
-                tryCatch(
-                {
+                tryCatch({
                     d <- getCSVData(dataURL)
                 },
                 error=function(cond){
                     message("error: dataURL passed must be a csv or json.")
-                }
-                )
+                })
             }
             )
         }
     }
+}
+
+checkDataType <- function(dataURL){
+    
 }

@@ -32,6 +32,9 @@ getCSVData <- function(dataURL){
     },
     warning=function(cond){
         stop("error: dataURL passed must be a csv.")
+    },
+    error=function(cond){
+        stop("error: dataURL passed must be a csv.")
     })
     data[ , -which(names(data) %in% c(""))]
     data <- Filter(function(x)!all(is.na(x)), data)
@@ -74,15 +77,14 @@ getDataSet <- function(dataURL) {
                 tryCatch({
                     d <- getCSVData(dataURL)
                 },
+                warning=function(cond){
+                    stop("error: dataURL passed must be a csv or json.")
+                },
                 error=function(cond){
-                    message("error: dataURL passed must be a csv or json.")
+                    stop("error: dataURL passed must be a csv or json.")
                 })
             }
             )
         }
     }
-}
-
-checkDataType <- function(dataURL){
-    
 }

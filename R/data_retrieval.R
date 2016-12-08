@@ -14,7 +14,7 @@ NULL
 #' @examples
 #' getJSONStatData()
 getJSONStatData <- function(dataURL){
-  data <- fromJSONstat(dataURL)
+  data <- fromJSONstat(dataURL, use_factors = TRUE)
   return(data[[1]])
 }
 

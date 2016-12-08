@@ -10,7 +10,7 @@ NULL
 #' @keywords common,intersect,data,variable
 #' @export
 #' getCommonDataVariables
-getCommonDataVariables <- function(...) {
+getCommonDataVariables <- function(datasets) {
   intersectNames <- function(x,y) {
     colnameFunction <- colnames
 
@@ -24,7 +24,7 @@ getCommonDataVariables <- function(...) {
       return(intersect(colnameFunction(x),colnameFunction(y)))
     }
   }
-  return(Reduce(intersectNames, list(...)))
+  return(Reduce(intersectNames, datasets))
 }
 
 #' A function for presenting the data variables of N data sets
@@ -37,11 +37,11 @@ getCommonDataVariables <- function(...) {
 getVariables <- function(...) {
     unionNames <- function(x,y) {
         colnameFunction <- colnames
-        
+
         if(is.null(dim(x))){
             colnameFunction <- names
         }
-        
+
         if(is.null(colnameFunction(x))){
             return(union(x,colnameFunction(y)))
         } else {

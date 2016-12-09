@@ -28,6 +28,7 @@ plotDataSet <- function(x, y, xlabel, ylabel, plotTypeStr) {
            }
     )
     plot(x,y, xlab = xlabel, ylab = ylabel, type = plotType, main = sprintf("%s over %s", ylabel, xlabel))
+    lines(x = c(2003:2017), y = c(10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,1000), col = "red")
     #axis(side = 1, cex = 0.5)#, at = x, cex = .1)
   }
   else if(plotTypeStr == "pie"){

@@ -7,13 +7,15 @@ test_that("getCommonDataVariables runs as expected for 1D", {
     test_2 <- c("x","y")
     names(test_1) <- c("a","b","c")
     names(test_2) <- c("b","c")
+    test_list <- list(test_1,test_2)
     common <- c("b","c")
-    result <- getCommonDataVariables(test_1, test_2)
+    result <- getCommonDataVariables(test_list)
     expect_equivalent(result, common)
 })
 
 test_that("getCommonDataVariables runs as expected for 2D", {
-    result <- getCommonDataVariables(women,PlantGrowth)
+    test_list <- list(women,PlantGrowth)
+    result <- getCommonDataVariables(test_list)
     expect_equivalent(result,c("weight"))
 })
 
@@ -24,9 +26,9 @@ test_that("getCommonDataVariables runs as expected for 1D odd no. datasets", {
     names(test_1) <- c("a","b","c")
     names(test_2) <- c("b","c")
     names(test_3) <- c("c","d","e")
-    
+    test_list <- list(test_1, test_2, test_3)
     common <- c("c")
-    result <- getCommonDataVariables(test_1, test_2, test_3)
+    result <- getCommonDataVariables(test_list)
     expect_equivalent(result, common)
 })
 
@@ -37,9 +39,7 @@ test_that("getVariables runs as expected for 1D", {
     names(test_1) <- c("a","b","g")
     names(test_2) <- c("b","c")
     vars <- c("a","b","g","c")
-    cat(vars)
     result <- getVariables(test_1, test_2)
-    cat(result)
     expect_equivalent(result, vars)
 })
 

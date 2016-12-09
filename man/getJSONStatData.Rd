@@ -16,4 +16,3 @@ This function allows you to retrieve JSON-stat data at a specified URL in data f
 getJSONStatData()
 }
 \keyword{json,jsonstat}
-

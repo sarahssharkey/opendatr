@@ -14,4 +14,3 @@ This function takes N data sets and returns the different variables present in t
 }
 \keyword{getVariables}
 \keyword{union,data,variable}
-

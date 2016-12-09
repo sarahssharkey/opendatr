@@ -14,4 +14,3 @@ This function takes N data sets and returns their common data variable(s)
 }
 \keyword{common,intersect,data,variable}
 \keyword{getCommonDataVariables}
-

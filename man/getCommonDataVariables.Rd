@@ -4,7 +4,7 @@
 \alias{getCommonDataVariables}
 \title{A function for getting common data variables of N data sets}
 \usage{
-getCommonDataVariables(...)
+getCommonDataVariables(datasets)
 }
 \arguments{
 \item{...}{Lists passed as parameters}
@@ -13,4 +13,5 @@ getCommonDataVariables(...)
 This function takes N data sets and returns their common data variable(s)
 }
 \keyword{common,intersect,data,variable}
+\keyword{getCommonDataVariables}
 

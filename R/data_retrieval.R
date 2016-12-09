@@ -10,7 +10,6 @@ NULL
 #' This function allows you to retrieve JSON-stat data at a specified URL in data frame format.
 #' @param dataURL URL of JSON-stat data
 #' @keywords json,jsonstat
-#' @export
 #' @examples
 #' getJSONStatData()
 getJSONStatData <- function(dataURL){
@@ -23,7 +22,6 @@ getJSONStatData <- function(dataURL){
 #' This function allows you to retrieve CSV data at a specified URL in data frame format.
 #' @param dataURL URL of CSV data
 #' @keywords CSV, csv
-#' @export
 #' @examples
 #' getCSVData()
 getCSVData <- function(dataURL){
@@ -46,7 +44,6 @@ getCSVData <- function(dataURL){
 #' This function allows you to retrieve JSON or CSV data from a specified URL in data frame format.
 #' @param dataURL of JSON or CSV data
 #' @keywords CSV, csv, json, jsonstat
-#' @export
 #' @examples
 #' getDataSet()
 getDataSet <- function(dataURL) {

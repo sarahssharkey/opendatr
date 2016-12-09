@@ -8,7 +8,6 @@ NULL
 #' This function takes N data sets and returns their common data variable(s)
 #' @param ... Lists passed as parameters
 #' @keywords common,intersect,data,variable
-#' @export
 #' getCommonDataVariables
 getCommonDataVariables <- function(datasets) {
   intersectNames <- function(x,y) {
@@ -32,7 +31,6 @@ getCommonDataVariables <- function(datasets) {
 #' This function takes N data sets and returns the different variables present in the data sets.
 #' @param ... Lists passed as parameters
 #' @keywords union,data,variable
-#' @export
 #' getVariables
 getVariables <- function(...) {
     unionNames <- function(x,y) {

@@ -13,7 +13,24 @@ NULL
 #' @keywords data,plot
 #' @export
 #' plotDataSet
-plotDataSet <- function(x, y, xlabel, ylabel, plotType) {
-  plot(x,y, xlab = xlabel, ylab = ylabel, type = plotType, main = sprintf("%s over %s", ylabel, xlabel))
-  #axis(side = 1, cex = 0.5)#, at = x, cex = .1)
+plotDataSet <- function(x, y, xlabel, ylabel, plotTypeStr) {
+  if(plotTypeStr != "pie"){
+  plotType = ""
+    switch(plotTypeStr,
+           "line" = {
+             plotType = "l"
+           },
+           "bar" = {
+             plotType = "h"
+           },
+           "scatter" = {
+             plotType = "p"
+           }
+    )
+    plot(x,y, xlab = xlabel, ylab = ylabel, type = plotType, main = sprintf("%s over %s", ylabel, xlabel))
+    #axis(side = 1, cex = 0.5)#, at = x, cex = .1)
+  }
+  else if(plotTypeStr == "pie"){
+    pie(y, main = sprintf("%s", y), labels =x)
+  }
 }

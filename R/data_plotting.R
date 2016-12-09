@@ -31,6 +31,9 @@ plotDataSet <- function(x, y, xlabel, ylabel, plotTypeStr) {
     #axis(side = 1, cex = 0.5)#, at = x, cex = .1)
   }
   else if(plotTypeStr == "pie"){
-    pie(y, main = sprintf("%s", y), labels =x)
+    percentages <- round(y/sum(y)*100)
+    percentLabel = paste(x, sprintf(" - %s%%", percentages))
+    #percentLabel = paste(percentLabel, " - %", sep="")
+    pie(y, main = sprintf("%s per %s", ylabel, xlabel), labels = percentLabel, col = rainbow(length(x)))
   }
 }

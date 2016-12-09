@@ -4,12 +4,18 @@
 \alias{plotDataSet}
 \title{A function that plots data based on the x and y values passed in}
 \usage{
-plotDataSet(...)
+plotDataSet(x, y, xlabel, ylabel, plotType)
 }
 \arguments{
 \item{x}{x value to be plotted}
 
 \item{y}{y value to be plotted}
+
+\item{xlabel}{label for x axis}
+
+\item{ylabel}{label for y axis}
+
+\item{plotType}{Type of plot wanted (l = line, h = bar etc)}
 }
 \description{
 A function that plots data based on the x and y values passed in

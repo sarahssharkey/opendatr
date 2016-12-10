@@ -2,11 +2,16 @@
 % Please edit documentation in R/data_plotting.R
 \name{plotDataSet}
 \alias{plotDataSet}
+\alias{plotDataSet}
 \title{A function that plots data based on the x and y values passed in}
 \usage{
-plotDataSet(x, y, xlabel, ylabel, plotType)
+plotDataSet(dataset, plots)
+
+plotDataSet(dataset, plots)
 }
 \arguments{
+\item{plots}{list of plots wanted (l = line, h = bar etc)}
+
 \item{x}{x value to be plotted}
 
 \item{y}{y value to be plotted}
@@ -16,8 +21,13 @@ plotDataSet(x, y, xlabel, ylabel, plotType)
 \item{ylabel}{label for y axis}
 
 \item{plotType}{Type of plot wanted (l = line, h = bar etc)}
+
+\item{datasets}{datasets = [dataset0 = [xVals, yVals, xLabel, yLabel], dataset1 = [xVals, yVals, xLabel, yLabel], ..... ]}
 }
 \description{
 A function that plots data based on the x and y values passed in
+
+A function that plots data based on the x and y values passed in
 }
 \keyword{data,plot}
+

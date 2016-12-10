@@ -4,7 +4,7 @@
 \alias{getCommonDataVariables}
 \title{A function for getting common data variables of N data sets}
 \usage{
-getCommonDataVariables(...)
+getCommonDataVariables(datasets)
 }
 \arguments{
 \item{...}{Lists passed as parameters}

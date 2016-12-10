@@ -26,25 +26,3 @@ getCommonDataVariables <- function(datasets) {
   return(Reduce(intersectNames, datasets))
 }
 
-#' A function for presenting the data variables of N data sets
-#'
-#' This function takes N data sets and returns the different variables present in the data sets.
-#' @param ... Lists passed as parameters
-#' @keywords union,data,variable
-#' getVariables
-getVariables <- function(...) {
-    unionNames <- function(x,y) {
-        colnameFunction <- colnames
-
-        if(is.null(dim(x))){
-            colnameFunction <- names
-        }
-
-        if(is.null(colnameFunction(x))){
-            return(union(x,colnameFunction(y)))
-        } else {
-            return(union(colnameFunction(x),colnameFunction(y)))
-        }
-    }
-    return(Reduce(unionNames, list(...)))
-}

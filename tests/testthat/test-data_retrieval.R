@@ -8,9 +8,9 @@ test_that("getJSONStatData runs as expected", {
     #returns the right names
     expect_equivalent(names(data), c("Sex","Year","Statistic","value"))
     #returns the right rows
-    expect_equivalent(data[4,]$Sex, "Both sexes")
-    expect_equivalent(data[4,]$Year, "2015")
-    expect_equivalent(data[4,]$Statistic, "Persons who had blood sugar measured (%)")
+    expect_equivalent(as.character(data[4,]$Sex), "Both sexes")
+    expect_equivalent(as.character(data[4,]$Year), "2015")
+    expect_equivalent(as.character(data[4,]$Statistic), "Persons who had blood sugar measured (%)")
     #Gives an error if not a .JSON-Stat file??
     expect_error(getJSONStatData("csv_with_extension.csv"))
 })

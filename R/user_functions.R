@@ -82,6 +82,27 @@ plotDatasets <- function(plotInfo) {
     }
     datasets[[i]] <- subDataset
   }
+  yAxis <- plotInfo$yAxis
+  plotData <- list(datasets = list(), graphTypes = graphType)
+
+  for (i in 1:length(datasets)){
+    if (class(commonVariable) == "list"){
+      xAxisVal <- commonVariable[[i]]
+    }
+    else{
+      xAxisVal <- commonVariable
+    }
+    yAxisVal <- yAxis[[i]]
+    ds <- datasets[[i]]
+
+    datasetList <- list(xVals = ds[[xAxisVal]],
+                        yVals = ds[[yAxisVal]],
+                        xLabel = xAxisVal,
+                        yLabel = yAxisVal)
 
 
+    plotData[["datasets"]][[i]] <- datasetList
+  }
+
+  return(plotData)
 }

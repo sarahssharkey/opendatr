@@ -12,6 +12,5 @@ getVariables(...)
 \description{
 This function takes N data sets and returns the different variables present in the data sets.
 }
-\keyword{getVariables}
 \keyword{union,data,variable}
 

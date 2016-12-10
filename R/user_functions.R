@@ -23,7 +23,13 @@ getDatasetInfo <- function(...) {
     }
     returnVal[[paste("dataset", index-1)]] <- d
   }
-  returnVal[["commonVariables"]] <- getCommonDataVariables(datasets)
+  if (length(datasets) == 1){
+    returnVal[["commonVariables"]] <- list()
+  }
+  else {
+    returnVal[["commonVariables"]] <- getCommonDataVariables(datasets)
+  }
+
 
 
   return(returnVal)

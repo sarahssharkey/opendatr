@@ -20,26 +20,16 @@ NULL
 #' @export
 #' getDatasetInfo
 getDatasetInfo <- function(...) {
-  datasets <- getDatasetList(c(...))
+  datasets <- getDatasetList(list(...))
   names(datasets) <- paste("dataset", 0:(length(datasets)-1))
   returnVal <- list()
-  for (index in 1:length(datasets)){
-    d <- as.list(setNames(names(datasets[[index]]), names(datasets[[index]])))
-    for (i in names(d)){
-      if (class(datasets[[index]][[i]]) == "factor"){
-        d[[i]] <- levels(datasets[[index]][[i]])
-      }
-    }
-    returnVal[[paste("dataset", index-1)]] <- d
-  }
+  returnVal[["datasets"]] <- datasets
   if (length(datasets) == 1){
     returnVal[["commonVariables"]] <- list()
   }
   else {
     returnVal[["commonVariables"]] <- getCommonDataVariables(datasets)
   }
-
-
 
   return(returnVal)
 }

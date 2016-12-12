@@ -46,7 +46,7 @@ plotDataSet <- function(x, y, xlabel, ylabel, plotTypeStr) {
 #' @export
 #' plotDataSet
 plotDataSet <- function(plotInfo) {
-  graphType <- plotInfo[["graphTypes"]]
+  graphType <- plotInfo[["graphType"]]
   datasets <- plotInfo[["datasets"]]
 
   par(mfrow=c(length(datasets),1))
@@ -56,6 +56,7 @@ plotDataSet <- function(plotInfo) {
     y = set[["yVals"]]
     xlabel = set[["xLabel"]]
     ylabel = set[["yLabel"]]
+    title = set[["title"]]
     if(graphType != "pie"){
       plotType = ""
       switch(graphType,
@@ -69,7 +70,7 @@ plotDataSet <- function(plotInfo) {
                plotType = "p"
              }
       )
-      plot(x,y, xlab = xlabel, ylab = ylabel, type = plotType, main = sprintf("%s over %s", ylabel, xlabel), cex = 1/length(x))
+      plot(x,y, xlab = xlabel, ylab = ylabel, type = plotType, main = title, cex = 1/length(x))
 
       #lines(x = c(2003:2017), y = c(10000,100000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,1000), col = "red")
 

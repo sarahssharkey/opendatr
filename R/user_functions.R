@@ -100,7 +100,7 @@ plotDatasets <- function(datasets, graphTypes, commonVariable, yAxis, factors, x
     plotData[["datasets"]][[i]] <- datasetList
   }
 
-  plotDataSet(plotData)
+  plotDataset(plotData)
 }
 
 #' A function that takes a list of data frames and urls and replaces all urls with the corresponding data frame.
@@ -117,7 +117,7 @@ getDatasetList <- function(datasets) {
   for (i in 1:length(datasets)){
     dataset <- datasets[[i]]
     if (class(dataset) == "character"){
-      returnList[[i]] <- getDataSet(dataset)
+      returnList[[i]] <- getDataset(dataset)
     }
     else if (class(dataset) == "data.frame"){
       returnList[[i]] <- dataset

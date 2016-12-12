@@ -8,8 +8,8 @@ NULL
 #' @param datasets datasets = [dataset0 = [xVals, yVals, xLabel, yLabel], dataset1 = [xVals, yVals, xLabel, yLabel], ..... ]
 #' @param plots list of plots wanted (l = line, h = bar etc)
 #' @keywords data,plot
-#' plotDataSet
-plotDataSet <- function(plotInfo) {
+#' plotDataset
+plotDataset <- function(plotInfo) {
   graphTypes <- plotInfo[["graphType"]]
   datasets <- plotInfo[["datasets"]]
 

@@ -45,8 +45,8 @@ getCSVData <- function(dataURL){
 #' @param dataURL of JSON or CSV data
 #' @keywords CSV, csv, json, jsonstat
 #' @export
-#' getDataSet()
-getDataSet <- function(dataURL) {
+#' getDataset()
+getDataset <- function(dataURL) {
     #Try Determine file-type from dataURL extension.
     if(grepl(".json$",dataURL)){
         d <- getJSONStatData(dataURL);

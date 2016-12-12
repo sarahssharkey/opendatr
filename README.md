@@ -1,7 +1,7 @@
 # opendatr
 OpenData Visualisation Library for R
 
-opendatr required has the following features:
+opendatr has the following features:
 
 1. Download opendata in csv format from a given user-specified url
 

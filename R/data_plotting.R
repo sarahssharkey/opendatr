@@ -10,7 +10,7 @@ NULL
 #' @keywords data,plot
 #' plotDataset
 plotDataset <- function(plotInfo) {
-  graphTypes <- plotInfo[["graphType"]]
+  graphTypes <- plotInfo[["graphTypes"]]
   datasets <- plotInfo[["datasets"]]
 
   par(mfrow=c(length(datasets),1))

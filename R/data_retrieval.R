@@ -26,7 +26,7 @@ getJSONStatData <- function(dataURL){
 #' getCSVData()
 getCSVData <- function(dataURL){
     tryCatch({
-        data <- read.csv(dataURL)
+        data <- read.csv(dataURL, fill=FALSE)
     },
     warning=function(cond){
         stop("error: dataURL passed must be a csv.")

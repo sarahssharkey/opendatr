@@ -7,8 +7,8 @@ NULL
 #'
 #' This function takes N data sets as urls and returns the data frames and common variables
 #'
-#' The list returned is of length N+1. The first N elements are the data frames corresponding to the datasets
-#'  and the last element 'commonVariables' is a list of the commonVariables present in all data frames (is empty
+#' The list returned is of length 2. The first element is a list of the data frames corresponding to the datasets
+#' and the last element 'commonVariables' is a list of the commonVariables present in all data frames (is empty
 #' if only one dataset entered).
 #'
 #' @param ... Lists passed as parameters

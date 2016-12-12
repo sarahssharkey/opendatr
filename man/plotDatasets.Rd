@@ -2,27 +2,36 @@
 % Please edit documentation in R/user_functions.R
 \name{plotDatasets}
 \alias{plotDatasets}
-\title{A function that plots N datasets on graph(s) based on the information entered by the user}
+\title{A function that plots N datasets on graph(s) based on the information entered by the user
+parameters:}
 \usage{
-plotDatasets(urls, graphType, commonVariable, yAxis, factors, xLabels, yLabels,
-  titles)
+plotDatasets(datasets, graphTypes, commonVariable, yAxis, factors, xLabels,
+  yLabels, titles)
 }
 \arguments{
-\item{...}{List in above format specifying the plot the user would like}
+\item{...}{Parameters in above format specifying the plot the user would like}
 }
 \description{
-This function takes a list of information in the specified format
-list parameter =
-[ urlList = [dataset0 = url0, dataset1 = url1, ...., datasetn = urln],
- graphType = [graph1, graph2, ..... graphn],
- commonVariable = var || [commonVar0, commonVar1, .... , commonVarn],
- yAxis = [dataset0 = colName, dataset1 = colName, ...., datasetN = colName],
- factors = [
-   dataset0factors = [factor0 = val0, factor = val1, factor2 = val2, …., factorn = valn],
-   dataset1factors = [factor0 = val0, factor1 = val1, factor2 = val2, …., factorn = valn],
-   ....
-   datasetNfactors = [factor0 = val0, factor1 = val1, factor2 = val2, …., factorn = valn]
-   ]]
+datasets = list of N data frames and urls
+}
+\details{
+graphTypes = list of N character strings specfiying what graph to plot for each dataset, respectively.
+"pie" for pie charts and "scatter" for scatter plots.
+
+commonVariable = a character string common to all datasets or a list of N character strings, each
+correspoinding to a dataset, respectively, specifying that they are to be considered common variables.
+
+yAxis = list of N character strings specifying the values for the yAxis for each dataset, respectively.
+
+factors = list of N lists. Each list corresponds to a dataset from the list of datasets, respectively.
+In each list, an element name and value correspond to a factor column name and corresponding value
+for that factor column, respectively.
+
+xLabels = list of N character strings, specifying the label for the x axis for the corresponding graph
+
+yLabels = list of N character strings, specifying the label for the y axis for the corresponding graph
+
+titles = list of N character strings, specifying the label for the title for the corresponding graph
 }
 \keyword{common,intersect,data,variable}
 

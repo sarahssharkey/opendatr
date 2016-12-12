@@ -12,5 +12,14 @@ getDatasetInfo(...)
 \description{
 This function takes N data sets as urls and returns a list of information about them
 }
+\details{
+The list returned is of length N+1. The first N elements each correspond to a dataset and the last
+element 'commonVariables' is a list of the commonVariables present in all data frames (is empty
+if only one dataset entered).
+Each element corresponding to a data frame corresponds to a column in the data frame. If the
+corresponding column is a factor, then the value for the element is a character array of the levels
+for that factor. If the correponding column is not a factor then the value for the element is just
+the name of the column itself.
+}
 \keyword{common,intersect,data,variable}
 

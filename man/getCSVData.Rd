@@ -13,7 +13,7 @@ getCSVData(dataURL)
 This function allows you to retrieve CSV data at a specified URL in data frame format.
 }
 \examples{
-getCSVData()
+getCSVData
 }
 \keyword{CSV,}
 \keyword{csv}

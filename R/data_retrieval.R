@@ -11,7 +11,7 @@ NULL
 #' @param dataURL URL of JSON-stat data
 #' @keywords json,jsonstat
 #' @examples
-#' getJSONStatData()
+#' getJSONStatData
 getJSONStatData <- function(dataURL){
   data <- fromJSONstat(dataURL, use_factors = TRUE)
   return(data[[1]])
@@ -23,7 +23,7 @@ getJSONStatData <- function(dataURL){
 #' @param dataURL URL of CSV data
 #' @keywords CSV, csv
 #' @examples
-#' getCSVData()
+#' getCSVData
 getCSVData <- function(dataURL){
     tryCatch({
         data <- read.csv(dataURL, fill=FALSE)
@@ -45,7 +45,7 @@ getCSVData <- function(dataURL){
 #' @param dataURL of JSON or CSV data
 #' @keywords CSV, csv, json, jsonstat
 #' @export
-#' getDataset()
+#' getDataset
 getDataset <- function(dataURL) {
     #Try Determine file-type from dataURL extension.
     if(grepl(".json$",dataURL)){

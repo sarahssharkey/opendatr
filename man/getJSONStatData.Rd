@@ -13,7 +13,7 @@ getJSONStatData(dataURL)
 This function allows you to retrieve JSON-stat data at a specified URL in data frame format.
 }
 \examples{
-getJSONStatData()
+getJSONStatData
 }
 \keyword{json,jsonstat}
 

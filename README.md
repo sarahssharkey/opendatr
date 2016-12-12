@@ -12,7 +12,7 @@ opendatr has the following features:
 ### Installation:
 
 
-[From github](github.com/sarahssharkey/opendatr) (development version):
+[From github](http://www.github.com/sarahssharkey/opendatr) (development version):
 
 ```s
 library(devtools)

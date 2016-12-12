@@ -32,7 +32,7 @@ plotDataset <- function(plotInfo) {
       colour = rainbow(length(x))
       textSize = 1
       par(xpd=TRUE)
-      pie(y, main = title, labels = "", col = colour, radius = 10/length(datasets))
+      pie(y, main = title, labels = "", col = colour, radius = 4/length(datasets))
 
       textSize = (1 / (logb(length(x),5)))
       if(length(x) > 15){

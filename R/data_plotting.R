@@ -12,8 +12,10 @@ NULL
 plotDataset <- function(plotInfo) {
   graphTypes <- plotInfo[["graphTypes"]]
   datasets <- plotInfo[["datasets"]]
+  if (length(datasets) > 1){
+    par(mfrow=c(length(datasets),1))
+  }
 
-  par(mfrow=c(length(datasets),1))
   i <- 1
   for(set in datasets){
     x = set[["xVals"]]
@@ -32,7 +34,7 @@ plotDataset <- function(plotInfo) {
       colour = rainbow(length(x))
       textSize = 1
       par(xpd=TRUE)
-      pie(y, main = title, labels = "", col = colour, radius = 10/length(datasets))
+    pie(y, main = title, labels = "", col = colour, radius = 1)
 
       textSize = (1 / (logb(length(x),5)))
       if(length(x) > 15){

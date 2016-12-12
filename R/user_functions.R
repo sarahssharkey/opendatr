@@ -145,23 +145,25 @@ getDatasetList <- function(datasets) {
 #' @keywords data,variable,common
 #' getDatasetList
 checkCommonVariables <- function(datasets, commonVariable) {
-  if (class(commonVariable) == "character"){
-    classType <- class(datasets[[1]][[commonVariable]])
-    for (i in 2:length(datasets)){
-      newClassType <- class(datasets[[i]][[commonVariable]])
-      if (newClassType != classType){
-        stop(paste("error: incompatible common variable types", classType, newClassType))
+  if (length(datasets) > 1){
+    if (class(commonVariable) == "character"){
+      classType <- class(datasets[[1]][[commonVariable]])
+      for (i in 2:length(datasets)){
+        newClassType <- class(datasets[[i]][[commonVariable]])
+        if (newClassType != classType){
+          stop(paste("error: incompatible common variable types", classType, newClassType))
+        }
       }
     }
-  }
-  else if (class(commonVariable) == "list"){
-    commonVar <- commonVariable[[1]]
-    classType <- class(datasets[[1]][[commonVar]])
-    for (i in 2:length(commonVariable)){
-      commonVar <- commonVariable[[i]]
-      newClassType <- class(datasets[[i]][[commonVar]])
-      if (newClassType != classType){
-        stop(paste("error: incompatible common variable types", classType, newClassType))
+    else if (class(commonVariable) == "list"){
+      commonVar <- commonVariable[[1]]
+      classType <- class(datasets[[1]][[commonVar]])
+      for (i in 2:length(commonVariable)){
+        commonVar <- commonVariable[[i]]
+        newClassType <- class(datasets[[i]][[commonVar]])
+        if (newClassType != classType){
+          stop(paste("error: incompatible common variable types", classType, newClassType))
+        }
       }
     }
   }

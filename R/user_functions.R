@@ -110,5 +110,5 @@ plotDatasets <- function(urls, graphType, commonVariable, yAxis, factors, xLabel
     plotData[["datasets"]][[i]] <- datasetList
   }
 
-  return(plotData)
+  plotDataSet(plotData)
 }

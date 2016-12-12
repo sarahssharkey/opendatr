@@ -4,7 +4,8 @@
 \alias{plotDatasets}
 \title{A function that plots N datasets on graph(s) based on the information entered by the user}
 \usage{
-plotDatasets(plotInfo)
+plotDatasets(urls, graphType, commonVariable, yAxis, factors, xLabels, yLabels,
+  titles)
 }
 \arguments{
 \item{...}{List in above format specifying the plot the user would like}

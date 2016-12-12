@@ -79,11 +79,14 @@ plotDatasets <- function(urls, graphType, commonVariable, yAxis, factors, xLabel
     subDataset <- datasets[[i]]
     datasetFactors <- factors[[i]]
     factorNames <- names(datasetFactors)
-    for (j in 1:length(datasetFactors)){
-      subDataset <- subset(subDataset, subDataset[[factorNames[j]]] == datasetFactors[[j]])
+    if (length(datasetFactors) != 0){
+      for (j in 1:length(datasetFactors)){
+        subDataset <- subset(subDataset, subDataset[[factorNames[j]]] == datasetFactors[[j]])
+      }
     }
     datasets[[i]] <- subDataset
   }
+
   plotData <- list(datasets = list(), graphType = graphType)
 
   for (i in 1:length(datasets)){
@@ -95,7 +98,8 @@ plotDatasets <- function(urls, graphType, commonVariable, yAxis, factors, xLabel
     }
     yAxisVal <- yAxis[[i]]
     ds <- datasets[[i]]
-
+    ds <- aggregate(ds[[yAxisVal]] ~ ds[[xAxisVal]], data = ds, sum)
+    names(ds) <- c(xAxisVal, yAxisVal)
     datasetList <- list(xVals = ds[[xAxisVal]],
                         yVals = ds[[yAxisVal]],
                         xLabel = xLabels[[i]],

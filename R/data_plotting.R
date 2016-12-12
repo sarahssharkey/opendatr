@@ -46,17 +46,19 @@ plotDataSet <- function(x, y, xlabel, ylabel, plotTypeStr) {
 #' @export
 #' plotDataSet
 plotDataSet <- function(plotInfo) {
-  graphType <- plotInfo[["graphType"]]
+  graphTypes <- plotInfo[["graphType"]]
   datasets <- plotInfo[["datasets"]]
 
   par(mfrow=c(length(datasets),1))
-
+  i <- 1
   for(set in datasets){
     x = set[["xVals"]]
     y = set[["yVals"]]
     xlabel = set[["xLabel"]]
     ylabel = set[["yLabel"]]
     title = set[["title"]]
+    graphType <- graphTypes[[i]]
+    i <- i + 1
     if(graphType != "pie"){
       plotType = ""
       switch(graphType,
@@ -76,10 +78,11 @@ plotDataSet <- function(plotInfo) {
 
       #axis(side = 1, cex = 0.5)#, at = x, cex = .1)
     }
-    else if(plot == "pie"){
+    else if(graphType == "pie"){
       percentages <- round(y/sum(y)*100)
       percentLabel = paste(x, sprintf(" - %s%%", percentages))
-      pie(y, main = sprintf("%s per %s", ylabel, xlabel), labels = percentLabel, col = rainbow(length(x)))
+      pie(y, main = title, labels = "", col = rainbow(length(x)), radius = 2)
+      legend(x = "bottomleft", legend = percentLabel, fill = rainbow(length(x)), cex = 0.4, ncol = 5)
     }
   }
 }

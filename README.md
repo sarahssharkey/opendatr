@@ -62,3 +62,23 @@ factors = list(
 xLabels = list("Year", "Year", "Year"),
 yLabels = list("Number of House Completions", "Number of Crimes", "Employment"),
 titles = list("House Completions in Private Sector per year", "Robbery, extortion and hijacking offences per year", "Employment per year"))
+
+---------------------------------------------------------
+
+datasetInfo <- getDatasetInfo("http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/ADM02", "http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/ADA01")
+
+pigData <- datasetInfo[["datasets"]][[1]] 
+animalData <- datasetInfo[["datasets"]][[2]]
+
+plotDatasets(
+
+datasets = list(pigData, animalData), 
+graphTypes = list("scatter", "scatter"), 
+commonVariable = list("Meat Usage", "Type of Animal"), 
+yAxis = list("value", "value"), 
+factors = list(
+	dataset0factors = list(Month = "2002M01", Statistic = "Pigs Slaughtered (Number)"),
+	dataset1factors = list(Year = "2002", Statistic = "Number of Animals Slaughtered (000 Head)")), 
+xLabels = list("Type of Pig", "Type of Animal"), 
+yLabels = list("Number of Pigs Slaughtered", "Number of Animals Slaughtered"), 
+titles = list("Pigs Slaughtered in January 2002", "Animals Slaughtered in 2002"))

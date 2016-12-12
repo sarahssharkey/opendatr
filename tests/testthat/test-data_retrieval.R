@@ -28,20 +28,20 @@ test_that("getCSVData runs as expected", {
     expect_error(getCSVData("json_with_extension.json"), "error: dataURL passed must be a csv")
 })
 
-test_that("getDataSet runs as expected", {
+test_that("getDataset runs as expected", {
     csv_with_extension_data <- getCSVData("csv_with_extension.csv")
     json_with_extension_data <- getJSONStatData ("json_with_extension.json")
     csv_without_extension_data <- getCSVData("http://data.corkcity.ie/datastore/dump/c8735eb1-6da3-4dbd-9541-8995ba36a424")
     json_without_extension_data <- getJSONStatData("json_without_extension")
     
     #returns data from JSON-Stat file with extension.
-    expect_equivalent(getDataSet("json_with_extension.json"), json_with_extension_data)
+    expect_equivalent(getDataset("json_with_extension.json"), json_with_extension_data)
     #returns data from CSV file with extension
-    expect_equivalent(getDataSet("csv_with_extension.csv"), csv_with_extension_data)
+    expect_equivalent(getDataset("csv_with_extension.csv"), csv_with_extension_data)
     #returns data from JSON-Stat file without extension.
-    expect_equivalent(getDataSet("http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/IH060"), json_without_extension_data)
+    expect_equivalent(getDataset("http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/IH060"), json_without_extension_data)
     #returns data from CSV file without extension
-    expect_equivalent(getDataSet("http://data.corkcity.ie/datastore/dump/c8735eb1-6da3-4dbd-9541-8995ba36a424"), csv_without_extension_data)
+    expect_equivalent(getDataset("http://data.corkcity.ie/datastore/dump/c8735eb1-6da3-4dbd-9541-8995ba36a424"), csv_without_extension_data)
     #Gives an error if not csv or JSON-Stat file??
-    expect_error(getDataSet("http://www.npws.ie/sites/default/files/publications/pdf/IWM46.pdf"), "error: dataURL passed must be a csv or json.")
+    expect_error(getDataset("http://www.npws.ie/sites/default/files/publications/pdf/IWM46.pdf"), "error: dataURL passed must be a csv or json.")
 })

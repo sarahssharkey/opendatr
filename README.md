@@ -1,7 +1,7 @@
 # opendatr
 OpenData Visualisation Library for R
 
-opendatr has the following features:
+opendatr required has the following features:
 
 1. Download opendata in csv format from a given user-specified url
 
@@ -12,7 +12,7 @@ opendatr has the following features:
 ### Installation:
 
 
-[From github](http://www.github.com/sarahssharkey/opendatr) (development version):
+[From github](github.com/sarahssharkey/opendatr) (development version):
 
 ```s
 library(devtools)
@@ -28,11 +28,17 @@ library(opendatr)
 crimeData <- getDataset("http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/CJA07")
 
 plotDatasets(
+
 #Datasets can be remote URLs of CSV or JSON-Stat data or datasets in the current environment
+
 datasets = list("http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/HSA01", crimeData, "http://www.cso.ie/StatbankServices/StatbankServices.svc/jsonservice/responseinstance/CNKL1"),
+
 #Specify the graph type scatter/pie
+
 graphTypes = list("scatter", "scatter", "pie"),
+
 #Specify Year as the common variable in the data sets
+
 commonVariable = "Year",
 yAxis = list("value", "value", "value"),
 	#Specify level of Factor to plot

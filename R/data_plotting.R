@@ -23,30 +23,27 @@ plotDataset <- function(plotInfo) {
     title = set[["title"]]
     graphType <- graphTypes[[i]]
     i <- i + 1
-    if(graphType != "pie"){
-      plotType = ""
-      switch(graphType,
-             "line" = {
-               plotType = "l"
-             },
-             "bar" = {
-               plotType = "h"
-             },
-             "scatter" = {
-               plotType = "p"
-             }
-      )
-      plot(x,y, xlab = xlabel, ylab = ylabel, type = plotType, main = title, cex = 1/length(x))
-
-      #lines(x = c(2003:2017), y = c(10000,100000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,10000,1000), col = "red")
-
-      #axis(side = 1, cex = 0.5)#, at = x, cex = .1)
+    if(graphType == "scatter"){
+      plot(x,y, xlab = xlabel, ylab = ylabel, main = title, cex = 1/length(x))
     }
     else if(graphType == "pie"){
       percentages <- round(y/sum(y)*100)
       percentLabel = paste(x, sprintf(" - %s%%", percentages))
-      pie(y, main = title, labels = "", col = rainbow(length(x)), radius = 2)
-      legend(x = "bottomleft", legend = percentLabel, fill = rainbow(length(x)), cex = 0.4, ncol = 5)
+      colour = rainbow(length(x))
+      textSize = 1
+      par(xpd=TRUE)
+      pie(y, main = title, labels = "", col = colour, radius = 5)
+
+      textSize = (1 / (logb(length(x),5)))
+      if(length(x) > 15){
+        textSize = (1 / (logb(length(x),5)))
+        legend(x = "left", legend = percentLabel, fill = colour, cex = textSize, ncol = 4)
+      }
+      else
+        legend(x = "left", legend = percentLabel, fill = colour, cex = textSize, ncol = 3)
+    }
+    else{
+      stop("error: Unsupported graph type. Must be scatter or pie.")
     }
   }
 }

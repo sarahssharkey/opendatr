@@ -12,9 +12,6 @@ getDataSet(dataURL)
 \description{
 This function allows you to retrieve JSON or CSV data from a specified URL in data frame format.
 }
-\examples{
-getDataSet()
-}
 \keyword{CSV,}
 \keyword{csv,}
 \keyword{json,}

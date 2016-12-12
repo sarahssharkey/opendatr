@@ -44,7 +44,7 @@ getCSVData <- function(dataURL){
 #' This function allows you to retrieve JSON or CSV data from a specified URL in data frame format.
 #' @param dataURL of JSON or CSV data
 #' @keywords CSV, csv, json, jsonstat
-#' @examples
+#' @export
 #' getDataSet()
 getDataSet <- function(dataURL) {
     #Try Determine file-type from dataURL extension.

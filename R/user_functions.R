@@ -53,11 +53,8 @@ getDatasetInfo <- function(...) {
 #' @keywords common,intersect,data,variable
 #' @export
 #' plotDatasets
-plotDatasets <- function(plotInfo) {
-  urls <- plotInfo[["urlList"]]
+plotDatasets <- function(urls, graphType, commonVariable, yAxis, factors, xLabels, yLabels, titles) {
   datasets <- apply((matrix(as.vector(unlist(urls)), nrow = 1, ncol = length(urls))), 2, getDataSet)
-  graphType <- plotInfo[["graphType"]]
-  commonVariable <- plotInfo[["commonVariable"]]
   if (class(commonVariable) == "character"){
     classType <- class(datasets[[1]][[commonVariable]])
     for (i in 2:length(datasets)){
@@ -78,7 +75,6 @@ plotDatasets <- function(plotInfo) {
       }
     }
   }
-  factors <- plotInfo[["factors"]]
   for (i in 1:length(factors)){
     subDataset <- datasets[[i]]
     datasetFactors <- factors[[i]]
@@ -88,8 +84,7 @@ plotDatasets <- function(plotInfo) {
     }
     datasets[[i]] <- subDataset
   }
-  yAxis <- plotInfo$yAxis
-  plotData <- list(datasets = list(), graphTypes = graphType)
+  plotData <- list(datasets = list(), graphType = graphType)
 
   for (i in 1:length(datasets)){
     if (class(commonVariable) == "list"){
@@ -103,8 +98,9 @@ plotDatasets <- function(plotInfo) {
 
     datasetList <- list(xVals = ds[[xAxisVal]],
                         yVals = ds[[yAxisVal]],
-                        xLabel = xAxisVal,
-                        yLabel = yAxisVal)
+                        xLabel = xLabels[[i]],
+                        yLabel = yLabels[[i]],
+                        title = titles[[i]])
 
 
     plotData[["datasets"]][[i]] <- datasetList

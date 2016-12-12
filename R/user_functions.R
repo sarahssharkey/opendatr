@@ -11,7 +11,7 @@ NULL
 #' @export
 #' getDatasetInfo
 getDatasetInfo <- function(...) {
-  datasets <- apply((matrix(c(...), nrow = 1, ncol = length(c(...)))), 2, getDataSet)
+  datasets <- getDatasetList(c(...))
   names(datasets) <- paste("dataset", 0:(length(datasets)-1))
   returnVal <- list()
   for (index in 1:length(datasets)){
@@ -36,45 +36,35 @@ getDatasetInfo <- function(...) {
 }
 
 #' A function that plots N datasets on graph(s) based on the information entered by the user
+#' parameters:
 #'
-#' This function takes a list of information in the specified format
-#' list parameter =
-#'[ urlList = [dataset0 = url0, dataset1 = url1, ...., datasetn = urln],
-#'  graphType = [graph1, graph2, ..... graphn],
-#'  commonVariable = var || [commonVar0, commonVar1, .... , commonVarn],
-#'  yAxis = [dataset0 = colName, dataset1 = colName, ...., datasetN = colName],
-#'  factors = [
-#'    dataset0factors = [factor0 = val0, factor = val1, factor2 = val2, …., factorn = valn],
-#'    dataset1factors = [factor0 = val0, factor1 = val1, factor2 = val2, …., factorn = valn],
-#'    ....
-#'    datasetNfactors = [factor0 = val0, factor1 = val1, factor2 = val2, …., factorn = valn]
-#'    ]]
-#' @param ... List in above format specifying the plot the user would like
+#' datasets = list of N data frames and urls
+#'
+#' graphTypes = list of N character strings specfiying what graph to plot for each dataset, respectively.
+#' "pie" for pie charts and "scatter" for scatter plots.
+#'
+#' commonVariable = a character string common to all datasets or a list of N character strings, each
+#' correspoinding to a dataset, respectively, specifying that they are to be considered common variables.
+#'
+#' yAxis = list of N character strings specifying the values for the yAxis for each dataset, respectively.
+#'
+#' factors = list of N lists. Each list corresponds to a dataset from the list of datasets, respectively.
+#' In each list, an element name and value correspond to a factor column name and corresponding value
+#' for that factor column, respectively.
+#'
+#' xLabels = list of N character strings, specifying the label for the x axis for the corresponding graph
+#'
+#' yLabels = list of N character strings, specifying the label for the y axis for the corresponding graph
+#'
+#' titles = list of N character strings, specifying the label for the title for the corresponding graph
+#'
+#' @param ... Parameters in above format specifying the plot the user would like
 #' @keywords common,intersect,data,variable
 #' @export
 #' plotDatasets
-plotDatasets <- function(urls, graphType, commonVariable, yAxis, factors, xLabels, yLabels, titles) {
-  datasets <- apply((matrix(as.vector(unlist(urls)), nrow = 1, ncol = length(urls))), 2, getDataSet)
-  if (class(commonVariable) == "character"){
-    classType <- class(datasets[[1]][[commonVariable]])
-    for (i in 2:length(datasets)){
-      newClassType <- class(datasets[[i]][[commonVariable]])
-      if (newClassType != classType){
-        print(paste("incompatible common variable types", classType, newClassType))
-      }
-    }
-  }
-  else if (class(commonVariable) == "list"){
-    commonVar <- commonVariable[[1]]
-    classType <- class(datasets[[1]][[commonVar]])
-    for (i in 2:length(commonVariable)){
-      commonVar <- commonVariable[[i]]
-      newClassType <- class(datasets[[i]][[commonVar]])
-      if (newClassType != classType){
-        print(paste("incompatible common variable types", classType, newClassType))
-      }
-    }
-  }
+plotDatasets <- function(datasets, graphTypes, commonVariable, yAxis, factors, xLabels, yLabels, titles) {
+  datasets <- getDatasetList(datasets)
+  checkCommonVariables(datasets, commonVariable)
   for (i in 1:length(factors)){
     subDataset <- datasets[[i]]
     datasetFactors <- factors[[i]]
@@ -87,7 +77,7 @@ plotDatasets <- function(urls, graphType, commonVariable, yAxis, factors, xLabel
     datasets[[i]] <- subDataset
   }
 
-  plotData <- list(datasets = list(), graphType = graphType)
+  plotData <- list(datasets = list(), graphTypes = graphTypes)
 
   for (i in 1:length(datasets)){
     if (class(commonVariable) == "list"){
@@ -111,4 +101,59 @@ plotDatasets <- function(urls, graphType, commonVariable, yAxis, factors, xLabel
   }
 
   plotDataSet(plotData)
+}
+
+#' A function that takes a list of data frames and urls and replaces all urls with the corresponding data frame.
+#'
+#' This function takes a list of N data frames and urls and returns a list of data frames.
+#' @param ... List of urls and data frames
+#' @keywords data,variable
+#' getDatasetList
+getDatasetList <- function(datasets) {
+  if (length(datasets) == 0){
+    stop("error: enter at least one dataset")
+  }
+  returnList <- list()
+  for (i in 1:length(datasets)){
+    dataset <- datasets[[i]]
+    if (class(dataset) == "character"){
+      returnList[[i]] <- getDataSet(dataset)
+    }
+    else if (class(dataset) == "data.frame"){
+      returnList[[i]] <- dataset
+    }
+    else{
+      stop("error: datasets given must be either URL to dataset or data frame.")
+    }
+  }
+  return(returnList)
+}
+
+#' A function that takes a list of data frames and a list of common variables and checks that the common variables in each each dataset are of the same type.
+#'
+#' This function takes a list of N data frames and common variables.
+#' @param ... List of data frames and common variables.
+#' @keywords data,variable,common
+#' getDatasetList
+checkCommonVariables <- function(datasets, commonVariable) {
+  if (class(commonVariable) == "character"){
+    classType <- class(datasets[[1]][[commonVariable]])
+    for (i in 2:length(datasets)){
+      newClassType <- class(datasets[[i]][[commonVariable]])
+      if (newClassType != classType){
+        stop(paste("error: incompatible common variable types", classType, newClassType))
+      }
+    }
+  }
+  else if (class(commonVariable) == "list"){
+    commonVar <- commonVariable[[1]]
+    classType <- class(datasets[[1]][[commonVar]])
+    for (i in 2:length(commonVariable)){
+      commonVar <- commonVariable[[i]]
+      newClassType <- class(datasets[[i]][[commonVar]])
+      if (newClassType != classType){
+        stop(paste("error: incompatible common variable types", classType, newClassType))
+      }
+    }
+  }
 }

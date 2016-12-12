@@ -50,7 +50,9 @@ getDatasetInfo <- function(...) {
 #' datasets = list of N data frames and urls
 #'
 #' graphTypes = list of N character strings specfiying what graph to plot for each dataset, respectively.
-#' "pie" for pie charts and "scatter" for scatter plots.
+#' "pie" for pie charts and "scatter" for scatter plots. Because of poor pie chart scaling in the default
+#' library, we also allow the user to specify a scaling factor, e.g. instead of "pie" they can use "pie-2"
+#' for a scaling factor of 2. The default scaling factor is 1.
 #'
 #' commonVariable = a character string common to all datasets or a list of N character strings, each
 #' correspoinding to a dataset, respectively, specifying that they are to be considered common variables.

@@ -28,13 +28,19 @@ plotDataset <- function(plotInfo) {
     if(graphType == "scatter"){
       plot(x,y, xlab = xlabel, ylab = ylabel, main = title, cex = 1/length(x))
     }
-    else if(graphType == "pie"){
+    else if(startsWith(graphType, "pie")){
+      if (nchar(graphType) > 3){
+        scale <- as.numeric(substring(graphType, 5))
+      }
+      else{
+        scale <- 1
+      }
       percentages <- round(y/sum(y)*100)
       percentLabel = paste(x, sprintf(" - %s%%", percentages))
       colour = rainbow(length(x))
       textSize = 1
       par(xpd=TRUE)
-    pie(y, main = title, labels = "", col = colour, radius = 1)
+    pie(y, main = title, labels = "", col = colour, radius = scale)
 
       textSize = (1 / (logb(length(x),5)))
       if(length(x) > 15){

@@ -1,12 +1,15 @@
 Package: opendatr
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Title: OpenData Visualisation Library
+Version: 1.0.0
+Authors: Sarah Sharkey, Mark Hanley, Geoff Natin, Joe O'Hara
+Description: Download opendata in CSV and JSON-Stat format. Finds and visualizes relationships between variables, across datasets
 Depends:
     R (>= 3.3.2)
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
+Encoding: UTF-8
+URL: https://github.com/sarahssharkey/opendatr
+BugReports: https://github.com/sarahssharkey/opendatr/issues
 LazyData: true
 RoxygenNote: 5.0.1.9000
 Imports:

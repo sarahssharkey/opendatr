@@ -82,3 +82,12 @@ factors = list(
 xLabels = list("Type of Pig", "Type of Animal"), 
 yLabels = list("Number of Pigs Slaughtered", "Number of Animals Slaughtered"), 
 titles = list("Pigs Slaughtered in January 2002", "Animals Slaughtered in 2002"))
+```
+
+### Example:
+
+Graphs and charts of the variables from the different datasets can be plotted  in a manner which makes it easy to see any relationships there might be between them.
+
+Here is an example of how graphs & charts made using our package look. There is a decrease in crimes and rise of houses completed until both variables switch in 2006 when there was an economic crash. These variables were taken from different datasets.
+
+![rplot02](https://cloud.githubusercontent.com/assets/16880181/21141652/44f65b70-c136-11e6-8eba-ace0bbf475d1.png)
